@@ -47,12 +47,12 @@ export default function HeroSection() {
       <div className="absolute inset-0 w-full h-full pointer-events-none select-none z-0">
         <picture>
           {/* Mobile Viewports (< 768px) */}
-          <source media="(max-width: 767px)" srcSet="/mobilebanner1.png" />
+          <source media="(max-width: 767px)" srcSet="/newmobilebanner.png" />
           {/* Desktop Viewports (>= 768px) */}
-          <source media="(min-width: 768px)" srcSet="/banner1.png" />
+          <source media="(min-width: 768px)" srcSet="/newbanner.png" />
           {/* Fallback image */}
           <img
-            src="/banner1.png"
+            src="/newbanner.png"
             alt="Royal Origin Fine Spirits Reserve"
             className="w-full h-full object-cover object-center"
           />
